@@ -1,0 +1,21 @@
+# Apache Configuration for PHP + React Unified Framework
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Ensure requests for actual files or directories are served directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Route everything else to the unified index.php
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Security: Disable directory browsing
+Options -Indexes
+
+# Performance: Enable Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>

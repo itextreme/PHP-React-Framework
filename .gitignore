@@ -1,0 +1,33 @@
+# System & Logs
+*.log
+php_errors.log
+logs/
+.DS_Store
+.vscode/
+.idea/
+
+# Database
+database/*.sqlite
+database/*.db
+!database/.gitkeep
+
+# Dependencies
+vendor/
+node_modules/
+
+# Production
+dist/
+public/dist/
+*.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

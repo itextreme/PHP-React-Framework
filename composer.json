@@ -1,0 +1,17 @@
+{
+	"name": "mrbeandev/php-react-backend",
+	"description": "PHP Backend for React App with Eloquent",
+	"type": "project",
+	"require": {
+		"php": ">=8.1",
+		"illuminate/database": "^10.0",
+		"illuminate/events": "^10.0",
+		"vlucas/phpdotenv": "^5.5",
+		"guzzlehttp/guzzle": "^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	}
+}
